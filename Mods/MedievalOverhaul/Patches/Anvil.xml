@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="DD_Apparel_Horse_PlateBase" or @Name="DD_Apparel_Horse_BoneBase"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <li>DankPyon_Anvil</li>
+    </value>
+  </Operation>
+</Patch>

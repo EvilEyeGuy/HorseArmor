@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="GiddyUp.PatchOperationDrawingOffset">
+    <def>Horse</def>
+    <value>
+      <li Class="GiddyUp.DrawingOffset">
+        <northOffset>(0.00, 0.00, -0.20)</northOffset>
+        <southOffset>(0.00, 0.00, -0.10)</southOffset>
+        <eastOffset>(-0.10, 0.00, -0.10)</eastOffset>
+        <westOffset>(0.10, 0.00, -0.10)</westOffset>
+      </li>
+    </value>
+  </Operation>
+</Patch>

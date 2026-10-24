@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="DD_Apparel_Horse_CaparisonBase" Abstract="true" ParentName="ApparelMakeableBase">
+    <description>Caparisons are part of the horse armor known as barding, frequently embroidered with the coat of arms of the horse's rider.</description>
+    <techLevel>Medieval</techLevel>
+
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>4500</WorkToMake>
+      <Mass>5</Mass>
+      <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+
+    <thingCategories>
+      <li>Animal_Apparel</li>
+    </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
+  </ThingDef>
+  <ThingDef ParentName="DD_Apparel_Horse_CaparisonBase">
+    <defName>DD_Apparel_Horse_CaparisonBack</defName>
+    <label>caparison (back)</label>
+
+    <graphicData>
+      <texPath>Apparel/Caparison/CaparisonBack_Horse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>AnimalLegs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Caparison/CaparisonBack_Horse</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>AnimalOnly</li>
+        <li>defNameHorse</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="DD_Apparel_Horse_CaparisonBase">
+    <defName>DD_Apparel_Horse_CaparisonFront</defName>
+    <label>caparison (front)</label>
+
+    <graphicData>
+      <texPath>Apparel/Caparison/CaparisonFront_Horse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>AnimalBody</li>
+        <li>AnimalHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Caparison/CaparisonFront_Horse</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>AnimalOnly</li>
+        <li>defNameHorse</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+  </ThingDef>
+  <ThingDef Name="DD_Apparel_Horse_DarkCaparisonBase" Abstract="true" ParentName="ApparelMakeableBase">
+    <description>Caparisons are part of the horse armor known as barding, frequently embroidered with the coat of arms of the horse's rider.</description>
+    <techLevel>Medieval</techLevel>
+
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>4500</WorkToMake>
+      <Mass>5</Mass>
+      <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+
+    <thingCategories>
+      <li>Animal_Apparel</li>
+    </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
+  </ThingDef>
+  <ThingDef ParentName="DD_Apparel_Horse_DarkCaparisonBase">
+    <defName>DD_Apparel_Horse_DarkCaparisonBack</defName>
+    <label>dark caparison (back)</label>
+
+    <graphicData>
+      <texPath>Apparel/DarkCaparison/DarkCaparisonBack_Horse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>AnimalLegs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/DarkCaparison/DarkCaparisonBack_Horse</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>AnimalOnly</li>
+        <li>defNameHorse</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="DD_Apparel_Horse_DarkCaparisonBase">
+    <defName>DD_Apparel_Horse_DarkCaparisonFront</defName>
+    <label>dark caparison (front)</label>
+
+    <graphicData>
+      <texPath>Apparel/DarkCaparison/DarkCaparisonFront_Horse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>AnimalBody</li>
+        <li>AnimalHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/DarkCaparison/DarkCaparisonFront_Horse</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>AnimalOnly</li>
+        <li>defNameHorse</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+  </ThingDef>
+  <ThingDef Name="DD_Apparel_Horse_PlateBase" Abstract="true" ParentName="ApparelMakeableBase">
+    <description>Plate armor made from any type of metal.</description>
+    <techLevel>Medieval</techLevel>
+
+    <recipeMaker>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+
+    <costStuffCount>110</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>10</Mass>
+      <StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+    </equippedStatOffsets>
+
+    <thingCategories>
+      <li>Animal_Apparel</li>
+    </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
+  </ThingDef>
+  <ThingDef ParentName="DD_Apparel_Horse_PlateBase">
+    <defName>DD_Apparel_Horse_PlateBack</defName>
+    <label>horse plate armor (back)</label>
+
+    <graphicData>
+      <texPath>Apparel/Plate/PlateBack_Horse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>AnimalLegs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Plate/PlateBack_Horse</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>AnimalOnly</li>
+        <li>defNameHorse</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="DD_Apparel_Horse_PlateBase">
+    <defName>DD_Apparel_Horse_PlateFront</defName>
+    <label>horse plate armor (front)</label>
+
+    <graphicData>
+      <texPath>Apparel/Plate/PlateFront_Horse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>AnimalBody</li>
+        <li>AnimalHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Plate/PlateFront_Horse</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>AnimalOnly</li>
+        <li>defNameHorse</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <ThingDef Name="DD_Apparel_Horse_BoneBase" Abstract="true" ParentName="ApparelMakeableBase">
+    <description>Bone armor made from bones.</description>
+    <techLevel>Medieval</techLevel>
+
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+
+    <costList>
+      <Steel>110</Steel>
+    </costList>
+
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>10</Mass>
+      <StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+    </equippedStatOffsets>
+
+    <thingCategories>
+      <li>Animal_Apparel</li>
+    </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
+  </ThingDef>
+  <ThingDef ParentName="DD_Apparel_Horse_BoneBase">
+    <defName>DD_Apparel_Horse_BoneBack</defName>
+    <label>horse bone armor (back)</label>
+
+    <graphicData>
+      <texPath>Apparel/Bone/BoneBack_Horse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>AnimalLegs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Bone/BoneBack_Horse</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>AnimalOnly</li>
+        <li>defNameHorse</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="DD_Apparel_Horse_BoneBase">
+    <defName>DD_Apparel_Horse_BoneFront</defName>
+    <label>horse bone armor (front)</label>
+
+    <graphicData>
+      <texPath>Apparel/Bone/BoneFront_Horse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>AnimalBody</li>
+        <li>AnimalHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Bone/BoneFront_Horse</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>AnimalOnly</li>
+        <li>defNameHorse</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+</Defs>
