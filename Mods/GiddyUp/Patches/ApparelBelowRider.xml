@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnRenderTreeDef[defName="Animal"]/root/children/li[tagDef="Body"]/children/li[tagDef="AnimalApparel"]/baseLayer</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnRenderTreeDef[defName="Animal"]/root/children/li[tagDef="Body"]/children/li[tagDef="AnimalApparel"]/baseLayer</xpath>
+      <value>
+        <baseLayer>30</baseLayer>
+      </value>
+    </match>
+  </Operation>
+</Patch>
